@@ -1,0 +1,17 @@
+[project]
+name = "deep-ecg-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.10.0",
+    "wfdb>=4.3.1",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+    "prettier>=0.0.7",
+    "ruff>=0.15.0",
+]
